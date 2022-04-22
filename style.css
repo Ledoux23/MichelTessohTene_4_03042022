@@ -329,7 +329,8 @@ a:hover {
     font-size: 16px;
     padding-left: 40px; 
     list-style-type: none;
-    /*add "padding-left: 40px" and "list-style-type: none;"*/
+    font-size: 18px;
+    /*add "padding-left: 40px", "list-style-type: none;" and "font-size: 18px;"*/
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -532,6 +533,7 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+    z-index: 600;
 }
 
 a[data-lightbox] {
@@ -682,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px; /*Change font-size from 11px to 14px*/
 }
 
 .tight-width-whitespace {
